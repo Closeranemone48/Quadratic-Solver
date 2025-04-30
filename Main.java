@@ -8,7 +8,7 @@ public class Main {
 
 	static void diy(double n) {
 		if (n == 0) {
-			throw new ArithmeticException("Seriously\u203d Do it yourslf you lazy #@*$.");
+			throw new ArithmeticException("Seriously‽ Do it yourslf you lazy #@*$.");
 		}
 	}
 
@@ -20,7 +20,7 @@ public class Main {
 		// declare variables
 		double x1, x2, dis, a, b, c;
 		System.out.println(
-				"Welcome! When prompted, input the requested values following the format of ax\u00b2 + bx + c = 0 , a \u2260 0"
+				"Welcome! When prompted, input the requested values following the format of ax² + bx + c = 0 , a ≠ 0"
 						+ "\n");
 		// var a
 		System.out.println("What is the value of a");
@@ -42,7 +42,7 @@ public class Main {
 			} else {
 				dis = -1 * (b * b - 4 * a * c);
 				x1 = 2 * a;
-				System.out.printf("When y is zero x is [-%g \u00b1 i\u221a(%g)]/%f \n", b, dis, x1);
+				System.out.printf("When y is zero x is [-%g ± i√(%g)]/%f \n", b, dis, x1);
 			}
 		} else {
 			x1 = (-b + Math.sqrt(dis)) / (2 * a);
