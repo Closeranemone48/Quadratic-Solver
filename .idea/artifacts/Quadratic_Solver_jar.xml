@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Quadratic-Solver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Quadratic_Solver_jar</output-path>
+    <root id="archive" name="Quadratic-Solver.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
